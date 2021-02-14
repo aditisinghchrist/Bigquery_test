@@ -1,0 +1,5 @@
+SELECT * FROM `bigquery-public-data.covid19_open_data.covid19_open_data` 
+where
+country_name = 'India'
+and new_confirmed > 0
+LIMIT 10
