@@ -3,3 +3,4 @@ where
 country_name = 'India'
 and new_confirmed > 0
 LIMIT 10
+
