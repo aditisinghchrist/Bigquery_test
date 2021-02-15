@@ -30,3 +30,9 @@ SUM(total_hospital_beds)
 FROM `bigquery-public-data.covid19_aha.hospital_beds` LIMIt 10 
 
 
+
+SELECT 
+sum(hospitalized_patients_symptoms)
+FROM `bigquery-public-data.covid19_italy.data_by_region` LIMIT 10
+
+
