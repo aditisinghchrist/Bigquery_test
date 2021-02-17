@@ -36,3 +36,8 @@ sum(hospitalized_patients_symptoms)
 FROM `bigquery-public-data.covid19_italy.data_by_region` LIMIT 10
 
 
+SELECT * FROM `bigquery-public-data.covid19_open_data.covid19_open_data` 
+where
+country_name = 'India'
+and new_confirmed > 0
+LIMIT 10
